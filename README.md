@@ -26,6 +26,7 @@ select * from students where gender = "M" and age > 10
 
 Q5: Please provide code to find the minimum number in an array using your preferred programming language.
 Code: 
+```
 var arr[] = {8,4,1,2,12}
 var miniNum = 0; 
 for(var i = 0; i < arr.length; i++){
@@ -33,5 +34,6 @@ for(var i = 0; i < arr.length; i++){
             miniNum = arr[i];
      }
 }
+```
 Console.log("the minimum number is "+miniNum);
 
